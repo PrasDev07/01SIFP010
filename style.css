@@ -950,6 +950,8 @@ footer .container .link-container .navigation ul li a {
 
   .about .container .content .about-me {
     gap: 16px;
+    flex-direction: column;
+    align-items: center;
   }
 
   .about .container .content .about-me .profile,
@@ -958,13 +960,13 @@ footer .container .link-container .navigation ul li a {
   }
 
   .about .container .content .about-me .profile .image-box {
-    width: 85%;
-    padding: 6px;
-    border-radius: 12px;
+    height: auto;
+    max-height: 420px;
   }
 
   .about .container .content .about-me .profile .image-box img {
     border-radius: 8px;
+    object-fit: cover;
   }
 
   .about .container .content .about-me .description .name-role h1 {
@@ -982,8 +984,13 @@ footer .container .link-container .navigation ul li a {
   }
 
   .about .container .content .about-me .description p {
+    text-align: left;
+    word-spacing: normal;
+    letter-spacing: normal;
+    overflow-wrap: break-word;
+    word-break: normal;
     font-size: 0.95rem;
-    line-height: 1.6;
+    line-height: 1.7;
   }
 
   .skill .container .content .skills {
@@ -1072,4 +1079,5 @@ footer .container .link-container .navigation ul li a {
   footer .container .link-container .navigation {
     width: 50%;
   }
+
 }
