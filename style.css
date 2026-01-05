@@ -926,7 +926,7 @@ footer .container .link-container .navigation ul li a {
   }
 
   .hero .container .content svg text {
-    font-size: clamp(80px, 11vw, 300px);
+    font-size: clamp(280px, 11vw, 300px);
   }
 
   .hero .container .content h1 {
@@ -965,7 +965,6 @@ footer .container .link-container .navigation ul li a {
   }
 
   .about .container .content .about-me .profile .image-box img {
-    border-radius: 8px;
     object-fit: cover;
   }
 
@@ -1079,5 +1078,4 @@ footer .container .link-container .navigation ul li a {
   footer .container .link-container .navigation {
     width: 50%;
   }
-
 }
